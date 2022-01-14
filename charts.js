@@ -87,14 +87,20 @@ console.log(yticks);
       y: yticks,
       text: labels,
       type: 'bar',
-      orientation: 'h'
+      orientation: 'h',
+      
+      marker: {
+        color: 'rgb(158,202,225)',        
+        opacity: 0.8,} 
     }];
       
     // ];
     // // 9. Create the layout for the bar chart. 
      var barLayout = {
-      title: "Top 10 Bacteria Cultures Found",
-      }
+      paper_bgcolor: '#F0F8FF',
+      title: {text: "<b>Top 10 Bacteria Cultures Found</b>"},
+      automargin: true
+     }
     // 10. Use Plotly to plot the data with the layout. 
     Plotly.newPlot("bar", barData, barLayout);
 // DELIVERABLE 2 Requirements
@@ -109,17 +115,21 @@ console.log(yticks);
       text: bubbleLabels,
       type: 'bubble',
       mode: "markers",
+    
        marker: {
          size: bubbleValues,
          color: bubbleValues,
-         colorscale: 'YlGnBu'
+         colorscale: 'Portland',
+         opacity : 0.5
+         
        }
     }
     ];
 
     // 2. Create the layout for the bubble chart.
     var bubbleLayout = {
-      title: "Bacteria Cultures Per Sample",
+      paper_bgcolor: '#F0F8FF',
+      title: {text: "<b>Bacteria Cultures Per Sample</b>"},
         xaxis: {title: "OTU ID"},
         automargin: true,
         hovermode: "closest"
@@ -157,7 +167,7 @@ console.log(yticks);
       value: wfreqs,
       type: "indicator",
       mode: "gauge+number",
-      title: {text: "<b> Belly Button Washing Frequency </b><br>Scrubs Per Week</br>"},
+      title: {text: "<b> Belly Button Washing Frequency </b><br></br>Scrubs Per Week"},
       gauge: {
          axis: {range: [null,10], dtick: "2"},
 
@@ -168,19 +178,15 @@ console.log(yticks);
           {range: [4, 6], color: "yellow"},
           {range: [6, 8], color: "lightgreen"},
           {range: [8, 10], color: "green"}
-        ],
-        
+        ]
       }
     }
     ];
-    
     // 5. Create the layout for the gauge chart.
     var gaugeLayout = { 
-      width: 550, 
-      height: 450, 
+      paper_bgcolor: '#F0F8FF',
       automargin: true
     };
-
     // 6. Use Plotly to plot the gauge data and layout.
     Plotly.newPlot("gauge", gaugeData, gaugeLayout);
   });

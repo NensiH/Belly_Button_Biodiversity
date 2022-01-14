@@ -9,23 +9,38 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
-<body>
-
-  <div class="container">
+<body style="background-color: #F0F8FF;">
+  
+  <div class="topnav" style="background-color: #56dad3; color:white" >
+    <a class="active" href="#row">Home</a>
+    <a href="#bar">BarChart</a>
+    <a href="#gauge">GaugeChart</a>
+    <a href="#bubble">BubbleChart</a>
+  </div>
+  <div class="container" >
     <div class="row">
-      <div class="col-md-12 jumbotron text-center">
+      <div class="col-md-12 jumbotron text-center" style= "background-image: url(https://s3.envato.com/files/224278070/cells_3.jpg); background-size: cover; background-position: center; color:white; text-shadow:2px 2px #ff0000; ;">
         <h1>Belly Button Biodiversity Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
+        <p style = "text-shadow:2px 2px #2f00ff; ;">Use the interactive charts below to explore the dataset</p>
+      </div>
+      <div class="col-md-12 text-center">
+        <p>
+          There are three different charts that offer insights into each participant's samples. The Bar chart 
+          shows the top 10 bacterias found within the participant's belly button. The Gauge chart
+          shows the amount of times per week, a participant scrubs their belly button. The 
+          Bubble chart compares all of the different bacterias found in the participant's belly button 
+          based on sample size. 
+        </p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-2">
-        <div class="well">
+        <div class="well"style = "background-color:#d8f1f1">
           <h5>Test Subject ID No.:</h5>
           <!-- <select id="selDataset"></select> -->
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
-        <div class="panel panel-primary">
+        <div class="panel panel-primary" style = "background-color:#d8f1f1;">
           <div class="panel-heading">
             <h3 class="panel-title">Demographic Info</h3>
           </div>
