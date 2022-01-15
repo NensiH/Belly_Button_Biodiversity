@@ -131,8 +131,9 @@ console.log(yticks);
       paper_bgcolor: '#F0F8FF',
       title: {text: "<b>Bacteria Cultures Per Sample</b>"},
         xaxis: {title: "OTU ID"},
-        automargin: true,
-        hovermode: "closest"
+        
+        hovermode: "closest",
+        margin:{t:30}
       
     };
 
