@@ -9,19 +9,24 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
-<body style="background-color: #F0F8FF;">
+<style>
+  body {
+    background-color: #F0F8FF;
+  }
+</style>
+<body>
   
   <div class="topnav" style = "
   background-color:lightsalmon;
   text-align: center;
-  padding: 10px">
-    <a class="active" href="#row" style= "color:black">Home</a>
-    <a href="#bar" style= "color:black">BarChart</a>
+  padding: 10px; position:fixed; z-index: 2; width: 100%; transition: top 0.3s;;">
+    <a class="active" href="#nensi" style= "color:black">Home</a>
+    <a href="#bar" style= "color:black; ">BarChart</a>
     <a href="#gauge"style= "color:black">GaugeChart</a>
     <a href="#bubble"style= "color:black">BubbleChart</a>
   </div>
-  <div class="container" >
-    <div class="row">
+  <div class="container " >
+    <div id="nensi" class="row">
       <div class="col-md-12 jumbotron text-center" style= "background-image: url(https://s3.envato.com/files/224278070/cells_3.jpg); background-size: cover; background-position: center; color:white; text-shadow:2px 2px #ff0000; ;">
         <h1>Belly Button Biodiversity Dashboard</h1>
         <p style = "text-shadow:2px 2px #2f00ff; ;">Use the interactive charts below to explore the dataset</p>
