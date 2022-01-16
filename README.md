@@ -9,7 +9,7 @@ For this project I used:
 3. HTML to build the webpage [index.html](https://github.com/NensiH/Belly_Button_Biodiversity/blob/main/index.html).
 4. CSS and Bootstrap to style the page
 5. Chrome Developer Tools to test the code.
-6. GitHub to deploy and showcase the final results Belly Button Biodiversity Dashboard.
+6. GitHub to deploy and showcase the final results [Belly Button Biodiversity Dashboard](https://nensih.github.io/Belly_Button_Biodiversity/).
 
 
 ## Resources
@@ -22,4 +22,19 @@ For this project I used:
 - **Dependencies:**
   - Plotly, D3.js 
 
+## Results
 
+<img width="1167" alt="Screen Shot 2022-01-16 at 11 22 08 AM" src="https://user-images.githubusercontent.com/92277581/149670719-a0f542fe-cfbb-4b2c-aeac-79a5e0baffb6.png">
+
+The final product allows the research volunteers to choose their Test Subject ID from a dropdown menu, which will display the volunteer's demographic information.
+
+A bar graph shows the top 10 bacterias found within the participant's belly button. Volunteers can hover their cursor over each bar to see which bacterial cultures are most prevalent.
+
+The Gauge chart shows the amount of times per week, a participant scrubs their belly button.
+
+Lastly, A bubble chart that displays bacterial cultures per sample. This chart also allows users to see the prevalence of certain bacterial cultures when they hover their cursor over a bubble.
+
+### **Link to Belly Button Biodiversity webpage**
+
+The deployed webpage is accessible at
+https://nensih.github.io/Belly_Button_Biodiversity/
