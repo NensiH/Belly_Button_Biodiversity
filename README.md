@@ -28,11 +28,11 @@ For this project I used:
 
 The final product allows the research volunteers to choose their Test Subject ID from a dropdown menu, which will display the volunteer's demographic information.
 
-A bar graph shows the top 10 bacterias found within the participant's belly button. Volunteers can hover their cursor over each bar to see which bacterial cultures are most prevalent.
+   A bar graph shows the top 10 bacterias found within the participant's belly button. Volunteers can hover their cursor over each bar to see which bacterial cultures are most prevalent.
 
-The Gauge chart shows the amount of times per week, a participant scrubs their belly button.
+   The Gauge chart shows the amount of times per week, a participant scrubs their belly button.
 
-Lastly, A bubble chart that displays bacterial cultures per sample. This chart also allows users to see the prevalence of certain bacterial cultures when they hover their cursor over a bubble.
+   Lastly, A bubble chart that displays bacterial cultures per sample. This chart also allows users to see the prevalence of certain bacterial cultures when they hover their cursor over a bubble.
 
 ### **Link to Belly Button Biodiversity webpage**
 
